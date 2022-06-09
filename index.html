@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header-first">
+                <div class="header-name">SUYNDY</div>
+                <div class="header-search">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>
+                <div class="header-form">
+                    <a href="./form log/index.html" class="header-account">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <span class="header-account-text">Tài khoản</span>
+                    </a>
+                    <div class="header-cart">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <span class="header-cart-text">Giỏ hàng</span>
+                    </div>
+                </div>          
+            </div>
+            <div class="header-second">
+                <ul class="nav">
+                    <li>
+                        <div class="flex">
+                            <ion-icon style="font-size: 24px; margin-top: 12px;" name="phone-portrait-outline"></ion-icon>
+                            <a href="">Phụ kiện điện thoại</a>
+                        </div>
+                        <ul class="subnav">
+                            <li>Pin sạc dự phòng</li>
+                            <li>Cáp sạc/Bộ sạc</li>
+                            <li>Ốp lưng điện thoại</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="flex">
+                            <ion-icon style="font-size: 24px; margin-top: 12px;" name="headset-outline"></ion-icon>
+                            <a href="">Tai nghe</a>
+                        </div>
+                        <ul class="subnav">
+                            <li>Tai nghe có dây</li>
+                            <li>Tai nghe bluetooh</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="flex">
+                            <ion-icon name="volume-high-outline" style="font-size: 24px; margin-top: 12px;"></ion-icon>
+                            <a href="">Loa nghe nhạc</a>
+                        </div>
+                        <ul class="subnav">
+                            <li>Loa bluetooh</li>
+                            <li>Loa soundbar</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="flex">
+                            <ion-icon name="watch-outline" style="font-size: 24px; margin-top: 12px;"></ion-icon>
+                            <a href="">Đồng hồ thông minh</a>
+                        </div>
+                        <ul class="subnav">
+                            <li>Đồng hồ Apple Watch</li>
+                            <li>Đồng hồ khác..</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="flex">
+                            <ion-icon name="game-controller-outline" style="font-size: 24px; margin-top: 12px;"></ion-icon>
+                            <a href="">Đồ chơi công nghệ</a>
+                        </div>
+                        <ul class="subnav">
+                            <li>Tay cầm chơi game</li>
+                            <li>Đồ chơi công nghệ khác</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="flex">
+                            <ion-icon name="car-outline"  style="font-size: 24px; margin-top: 12px;"></ion-icon>
+                            <a href="">Phụ kiện ô tô</a>
+                        </div>
+                        <ul class="subnav">
+                            <li>Camera hành trình</li>
+                            <li>Bánh xe ô tô</li>
+                            <li>Các loại phụ kiện khác</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="flex">
+                            <ion-icon name="laptop-outline" style="font-size: 24px; margin-top: 12px;"></ion-icon>
+                            <a href="">Laptop</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex">
+                            <ion-icon name="call-outline"  style="font-size: 24px; margin-top: 12px;"></ion-icon>
+                            <a href="">Liên hệ</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-img">
+                <img src="./asset/img/banner-img.png" alt="">
+            </div>
+            <div class="banner-img">
+                <img src="./asset/img/banner2.png" alt="">
+            </div>
+            <div class="banner-img">
+                <img src="./asset/img/banner3.png" alt="">
+            </div>
+        </div>
+        <div class="sale">
+            <div class="sale-img">
+                <img class="" src="./asset/img/promotion-top.png"></img>
+            </div>
+            <div class="sale-main">
+                <div class="sale-box">
+                    <img class="sale-box-img" src="./asset/img/sale1.png"></img>
+                    <div class="sale-box-content">
+                        <p class="sale-box-title">APPLE</p>
+                        <div class="sale-box-price">GIẢM ĐẾN<span> 24%++</span></div>
+                    </div>
+                </div>
+                <div class="sale-box">
+                    <img class="sale-box-img" src="./asset/img/sale2.png"></img>
+                    <div class="sale-box-content">
+                        <p class="sale-box-title">PHONE</p>
+                        <div class="sale-box-price">GIẢM ĐẾN <span>13%++</span></div>
+                    </div>
+                </div>
+                <div class="sale-box">
+                    <img class="sale-box-img" src="./asset/img/sale3.png"></img>
+                    <div class="sale-box-content">
+                        <p class="sale-box-title">LAPTOP</p>
+                        <div class="sale-box-price">GIẢM ĐẾN <span>10%++</span></div>
+                    </div>
+                </div>
+                <div class="sale-box">
+                    <img class="sale-box-img" src="./asset/img/sale4.png"></img>
+                    <div class="sale-box-content">
+                        <p class="sale-box-title">NỘI THẤT</p>
+                        <div class="sale-box-price">GIẢM ĐẾN <span>45%++</span></div>
+                    </div>
+                </div>
+            </div>       
+        </div>
+        <div class="top">
+            <h3 class="top-title">Top 5 điện thoại được yêu thích nhất !</h3>
+            <div class="cards">
+                <div class="card">
+                    <p class="card-sale">-14%</p>
+                    <img src="./asset/img/top1.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Điện thoại Samsung Galaxy A03 32GB ₫en</h3>
+                        <p class="card-price">5.590.000₫<span>6.490.000₫</span></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="card-sale">-13%</p>
+                    <img src="./asset/img/top2.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Điện thoại Samsung Galaxy A03 32GB ₫en</h3>
+                        <p class="card-price">2.790.000₫<span>4.670.000₫</span></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="card-sale">-15%</p>
+                    <img src="./asset/img/top3.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Điện thoại Vivo Y15s 3GB/32GB Xanh ₫en</h3>
+                        <p class="card-price">3.190.000₫<span>7.400.000₫</span></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="card-sale">-9%</p>
+                    <img src="./asset/img/top4.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Điện thoại OPPO A55 4GB/64GB Xanh</h3>
+                        <p class="card-price">1.990.000₫<span>4.100.000₫</span></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="card-sale">-11%</p>
+                    <img src="./asset/img/top5.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Điện thoại Samsung Galaxy A22 6GB/128GB Xanh</h3>
+                        <p class="card-price">2.876.000₫<span>3.900.000₫</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="idea">
+            <div class="idea-first">
+                <h3 class="idea-title">Gợi ý hôm nay</h3>
+                <img src="./asset/img/fire.png" alt="" class="idea-first-img">
+            </div>
+            <div class="idea-second">
+                <div class="list">
+                    <div class="item">
+                        <img src="./asset/img/content1.webp" alt="" class="item-img">
+                        <div class="item-content">
+                            <p class="item-content-title">Dây sạc nhanh ₫iện thoại Xiaomi</p>
+                            <p class="item-content-price">32.000₫ - 139.000₫</p>
+                            <p class="item-content-sold">Đã bán 159</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./asset/img/content2.jpg" alt="" class="item-img">
+                        <div class="item-content">
+                            <p class="item-content-title">Dây cáp sạc Samsung A21 USB Type C</p>
+                            <p class="item-content-price">32.000₫ - 139.000₫</p>
+                            <p class="item-content-sold">Đã bán 100</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./asset/img/content3.webp" alt="" class="item-img">
+                        <div class="item-content">
+                            <p class="item-content-title">High Imitation Headset For Bests Solo3 Head-mounted Wireless Bluetooth Headset</p>
+                            <p class="item-content-price">324.540₫</p>
+                            <p class="item-content-sold">Đã bán 53</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./asset/img/content4.jpg" alt="" class="item-img">
+                        <div class="item-content">
+                            <p class="item-content-title">Tai nghe Bluetooth Apple Airpods 2019</p>
+                            <p class="item-content-price">3.390.000₫</p>
+                            <p class="item-content-sold">Đã bán 40</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./asset/img/content5.jpg" alt="" class="item-img">
+                        <div class="item-content">
+                            <p class="item-content-title">Loa Bluetooth Mozard E8</p>
+                            <p class="item-content-price">665.000₫</p>
+                            <p class="item-content-sold">Hết hàng</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./asset/img/content6.jpg" alt="" class="item-img">
+                        <div class="item-content">
+                            <p class="item-content-title">Loa sounbar SamSung chính hãng</p>
+                            <p class="item-content-price">24.665.000₫</p>
+                            <p class="item-content-sold">Đã bán 54</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./asset/img/content7.jpg" alt="" class="item-img">
+                        <div class="item-content">
+                            <p class="item-content-title">Apple Watch Series 7 GPS + Cellular 45mm viền nhôm dây cao su</p>
+                            <p class="item-content-price">13.490.000₫</p>
+                            <p class="item-content-sold">Đã bán 37</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./asset/img/content8.webp" alt="" class="item-img">
+                        <div class="item-content">
+                            <p class="item-content-title">₫ồng hồ Casio MRW-220HCM-5BVDF</p>
+                            <p class="item-content-price">571.000₫ <span style="text-decoration: line-through; color: #a6a6a6; margin-left: 8px;">815.000₫</span></p>
+                            <p class="item-content-sold">Đã bán 59</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./asset/img/content9.jpg" alt="" class="item-img">
+                        <div class="item-content">
+                            <p class="item-content-title">Pin sạc dự phòng Remax 10.000mAh RPP-96 ₫en</p>
+                            <p class="item-content-price">219.000₫ <span style="text-decoration: line-through; color: #a6a6a6; margin-left: 8px;">299.000₫</span></p>
+                            <p class="item-content-sold">Đã bán 88</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./asset/img/content10.jpg" alt="" class="item-img">
+                        <div class="item-content">
+                            <p class="item-content-title">Củ sạc nhanh USB-A 12W Minigo 2 Innostyle IC12SA Trắng</p>
+                            <p class="item-content-price">149.000₫ <span style="text-decoration: line-through; color: #a6a6a6; margin-left: 8px;">299.000₫</span></p>
+                            <p class="item-content-sold">Đã bán 53</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./asset/img/content11.jpg" alt="" class="item-img">
+                        <div class="item-content">
+                            <p class="item-content-title">Tai nghe Philips TAE1105BK/00 Đen</p>
+                            <p class="item-content-price">270.000₫</span></p>
+                            <p class="item-content-sold">Đã bán 77</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="idea-load">Xem thêm</button>
+            </div>
+        </div>
+        <div class="lap-menu">
+            <button class="button">
+                <ion-icon name="flash-outline"></ion-icon>
+                LAPTOP BÁN CHẠY
+                <ion-icon name="flash-outline"></ion-icon>
+            </button>
+            <div class="laps">
+                <div class="lap">
+                    <p class="lap-sale">-8%</p>
+                    <div class="lap-img">
+                        <img src="./asset/img/lap1.jpg" alt="">
+                    </div>
+                    <div class="lap-content">
+                        <h3>Laptop Asus VivoBook A515EA-L12033W</h3>
+                        <p class="lap-price">16.590.000₫<span>18.490.000₫</span></p>
+                    </div>
+                </div>
+                <div class="lap">
+                    <p class="lap-sale">-12%</p>
+                    <div class="lap-img">
+                        <img src="./asset/img/lap2.jpg" alt="">
+                        <img src="./asset/img/lap-sale.webp" class="lap-sale-online" alt="">
+                    </div>
+                    <div class="lap-content">
+                        <h3>Laptop Dell Vostro 5410 I5-11320H/8GB/512GB/Win11</h3>
+                        <p class="lap-price">21.790.000₫<span>22.670.000₫</span></p>
+                    </div>
+                </div>
+                <div class="lap">
+                    <p class="lap-sale">-8%</p>
+                    <div class="lap-img">
+                        <img src="./asset/img/lap3.jpg" alt="">
+                    </div>
+                    <div class="lap-content">
+                        <h3>Laptop Asus VivoBook A515EA-L12033W</h3>
+                        <p class="lap-price">19.190.000₫<span>22.400.000₫</span></p>
+                    </div>
+                </div>
+                <div class="lap">
+                    <p class="lap-sale">-10%</p>
+                    <div class="lap-img">
+                        <img src="./asset/img/lap4.jpg" alt="">
+                    </div>
+                    <div class="lap-content">
+                        <h3>Laptop Acer Nitro 5 Gaming AN515-57-74NU</h3>
+                        <p class="lap-price">15.990.000₫<span>17.100.000₫</span></p>
+                    </div>
+                </div>
+                <div class="lap">
+                    <p class="lap-sale">-12%</p>
+                    <div class="lap-img">
+                        <img src="./asset/img/lap5.jpg" alt="">
+                        <img src="./asset/img/lap-sale.webp" class="lap-sale-online" alt="">
+                    </div>
+                    <div class="lap-content">
+                        <h3>Laptop Acer TravelMate B3 N4020/4GB/128GB/Win11</h3>
+                        <p class="lap-price">9.876.000₫<span>13.900.000₫</span></p>
+                    </div>
+                </div>
+                <div class="lap">
+                    <p class="lap-sale">-12%</p>
+                    <div class="lap-img">
+                        <img src="./asset/img/lap6.jpg" alt="">
+                        <img src="./asset/img/lap-sale.webp" class="lap-sale-online" alt="">
+                    </div>
+                    <div class="lap-content">
+                        <h3>Laptop Acer TravelMate B3 N4020/4GB/128GB/Win11</h3>
+                        <p class="lap-price">9.876.000₫<span>13.900.000₫</span></p>
+                    </div>
+                </div>
+                <div class="lap">
+                    <p class="lap-sale">-12%</p>
+                    <div class="lap-img">
+                        <img src="./asset/img/lap7.jpg" alt="">
+                        <img src="./asset/img/lap-sale.webp" class="lap-sale-online" alt="">
+                    </div>
+                    <div class="lap-content">
+                        <h3>Laptop Acer TravelMate B3 N4020/4GB/128GB/Win11</h3>
+                        <p class="lap-price">9.876.000₫<span>13.900.000₫</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page">
+            <h3 class="page-title">Chuyên trang thương hiệu</h3>
+            <div class="page-right">
+                <img src="./asset/img/page.png" alt="">
+                <img src="./asset/img/page2.png" alt="">
+                <img src="./asset/img/page3.png" alt="">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer__content">
+                <div class="footer__title">Thông tin công ty</div>
+                <ul class="footer__subtitle">
+                    <li class="footer__subtitle-text">Giới thiệu công ty</li>
+                    <li class="footer__subtitle-text">Hệ thống cửa hàng</li>
+                    <li class="footer__subtitle-text">Tuyển dụng</li>
+                    <li class="footer__subtitle-text">Liên hệ</li>
+                    <li class="footer__subtitle-text">Tin tức</li>
+                    <li class="footer__subtitle-text">Liên lạc</li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <div class="footer__title">Danh mục mua bán hàng đầu</div>
+                <ul class="footer__subtitle">
+                    <li class="footer__subtitle-text">Điện thoại</li>
+                    <li class="footer__subtitle-text">Laptop</li>
+                    <li class="footer__subtitle-text">Gia dụng</li>
+                    <li class="footer__subtitle-text">Khác</li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <div class="footer__title">Quy định chính sách</div>
+                <ul class="footer__subtitle">
+                    <li class="footer__subtitle-text">Chính sách bảo hành</li>
+                    <li class="footer__subtitle-text">Chính sách đổi trả</li>
+                    <li class="footer__subtitle-text">Thanh toán online</li>
+                    <li class="footer__subtitle-text">Chính sách bảo mật</li>
+                    <li class="footer__subtitle-text">Chính sách sử dụng</li>
+                    <li class="footer__subtitle-text">Mua bán trả góp</li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <div class="footer__title">Hỗ trợ khách hàng</div>
+                <ul class="footer__subtitle">
+                    <li class="footer__subtitle-text">Tổng đài mua hàng:</li>
+                    <li class="footer__subtitle-phone" style="font-weight: bold;">
+                        <ion-icon name="call-outline"></ion-icon>
+                        19000351 - 0988242424
+                    </li>
+                    <li class="footer__subtitle-text">Thanh toán online</li>
+                    <li class="footer__subtitle-text">Chính sách bảo mật</li>
+                    <li class="footer__subtitle-text">Chính sách sử dụng</li>
+                    <li class="footer__subtitle-text">Mua bán trả góp</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./main.js"></script>
+</body>
+</html>
+
+
